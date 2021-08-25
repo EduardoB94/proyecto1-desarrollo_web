@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    
+    box-sizing: border-box;
+
+
+}
+
+#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bdd8b9;
+    width: 99%;
+    margin:auto;
+    border-style:inset #569b4a;
+}   
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #569b4a;
+    border-radius: 8px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style: none;
+}
+
+
+nav > ul >li {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: #31552a;
+    border-radius: 5px;
+}
+
+
+
+main {
+    background-color: #bdd8b9;
+}
+
+
+
+
+.form-contacto {
+    width: 400px;
+    background: #668660;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-contacto h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #bbbeba;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #15580c;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+  }
+  
+  .form-contacto p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-contacto a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-contacto a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-contacto .botons {
+    width: 100%;
+    background: #294723;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+
+  
+footer {
+    background-color: #92bb8b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+footer  ul {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
